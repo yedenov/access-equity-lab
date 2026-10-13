@@ -1,0 +1,16 @@
+{
+  "name": "access-equity-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Which candidate facility maximizes additional population coverage under a fixed straight-line distance threshold?",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node cli.mjs data/demo.json results",
+    "analyze": "node cli.mjs"
+  },
+  "license": "MIT"
+}
