@@ -1,0 +1,42 @@
+{
+  "radiusKm": 2,
+  "demand": [
+    {
+      "id": "A",
+      "x": 0,
+      "y": 0,
+      "population": 100
+    },
+    {
+      "id": "B",
+      "x": 4,
+      "y": 0,
+      "population": 300
+    },
+    {
+      "id": "C",
+      "x": 8,
+      "y": 0,
+      "population": 200
+    }
+  ],
+  "facilities": [
+    {
+      "id": "existing",
+      "x": 0,
+      "y": 0
+    }
+  ],
+  "candidates": [
+    {
+      "id": "west",
+      "x": 4,
+      "y": 0
+    },
+    {
+      "id": "east",
+      "x": 7,
+      "y": 0
+    }
+  ]
+}
