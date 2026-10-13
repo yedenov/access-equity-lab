@@ -1,0 +1,65 @@
+{
+  "project": "access-equity-lab",
+  "dataStatus": "SYNTHETIC DEMONSTRATION",
+  "input": {
+    "radiusKm": 2,
+    "demand": [
+      {
+        "id": "A",
+        "x": 0,
+        "y": 0,
+        "population": 100
+      },
+      {
+        "id": "B",
+        "x": 4,
+        "y": 0,
+        "population": 300
+      },
+      {
+        "id": "C",
+        "x": 8,
+        "y": 0,
+        "population": 200
+      }
+    ],
+    "facilities": [
+      {
+        "id": "existing",
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "candidates": [
+      {
+        "id": "west",
+        "x": 4,
+        "y": 0
+      },
+      {
+        "id": "east",
+        "x": 7,
+        "y": 0
+      }
+    ]
+  },
+  "result": {
+    "totalPopulation": 600,
+    "baselineCoveredPopulation": 100,
+    "baselineCoverage": 0.16666666666666666,
+    "bestCandidate": "west",
+    "coverageAfter": 0.6666666666666666,
+    "ranking": [
+      {
+        "candidate": "west",
+        "coveredPopulation": 400,
+        "additionalPopulation": 300
+      },
+      {
+        "candidate": "east",
+        "coveredPopulation": 300,
+        "additionalPopulation": 200
+      }
+    ]
+  }
+}
